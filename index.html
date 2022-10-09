@@ -1,0 +1,1466 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Doe :: Full-stack Developer</title>
+    <meta name="author" content="John Doe" />
+    <meta
+      name="description"
+      content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
+    />
+    <meta
+      name="keywords"
+      content="Set your keywords here and seperate them by using comma"
+    />
+    <meta property="og:title" content="John Doe :: Full-stack Developer">
+    <meta property="og:description" content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./img/offer.jpg">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/assets/bulma.css" />
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.css" />
+    <link rel="stylesheet" href="css/assets/tiny-slider.css" />
+    <meta name="theme-color" content="#7c30d8">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;500;700&display=swap"
+    />
+
+    <link id="core-style" rel="stylesheet" href="css/core.css" />
+    <!-- <link rel="stylesheet" href="css/rtl-support.css"> -->
+    <!--[if lt IE 9]>
+      <script src="js/assets/html5shiv.min.js"></script>
+      <script src="js/assets/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+    <!-- LOADER PAGE -->
+    <div class="loader-page">
+      <!-- SPINNER LOADER -->
+      <div class="whirly-loader"></div>
+      <!-- / END SPINNER LOADER -->
+    </div>
+    <!-- / END LOADER PAGE -->
+
+    <!-- NAVBAR -->
+    <nav
+      class="navbar is-transparent"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand">
+
+        <!-- NAVBAR-ITEM -->
+        <a href="./index.html" class="navbar-item">
+          <span>
+            <img
+              src="./img/logo.png"
+              alt="text here"
+            />
+          </span>
+        </a>
+        <!-- / END NAVBAR-ITEM -->
+
+        <!-- BURGER ICON -->
+        <a
+          class="navbar-burger burger"
+          role="button"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="main-links"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <!-- / END NAVBAR-BURGER -->
+
+      </div>
+      <!-- / END NAVBAR-BRAND -->
+
+      <!-- NAVBAR MENU -->
+      <div class="navbar-menu slideup">
+
+        <div class="navbar-end">
+
+          <!-- NAVBAR ITEM -->
+          <a
+            href="#"
+            class="navbar-item is-uppercase"
+            data-section="home"
+            data-localize="navbar.home"
+            >Home</a
+          >
+          <!-- / END NAVBAR ITEM -->
+
+          <!-- NAVBAR ITEM -->
+          <a
+            href="#"
+            class="navbar-item is-uppercase"
+            data-section="skills"
+            data-localize="navbar.skills"
+            >Skills</a
+          >
+          <!-- / END NAVBAR ITEM -->
+
+          <!-- NAVBAR ITEM -->
+          <a
+            href="#"
+            class="navbar-item is-uppercase"
+            data-section="portfolio"
+            data-localize="navbar.portfolio"
+            >Portfolio</a
+          >
+          <!-- / END NAVBAR ITEM -->
+
+          <!-- NAVBAR ITEM -->
+          <a
+            href="#"
+            class="navbar-item is-uppercase"
+            data-section="offers"
+            data-localize="navbar.offers"
+            >Offers</a
+          >
+          <!-- / END NAVBAR ITEM -->
+
+          <!-- NAVBAR ITEM -->
+          <a
+            href="#"
+            class="navbar-item is-uppercase"
+            data-section="reviews"
+            data-localize="navbar.reviews"
+            >Reviews</a
+          >
+          <!-- / END NAVBAR ITEM -->
+
+          <!-- NAVBAR ITEM -->
+          <a
+            href="#"
+            class="navbar-item is-uppercase"
+            data-section="contact"
+            data-localize="navbar.contact"
+            >Contact</a
+          >
+          <!-- / END NAVBAR ITEM -->
+
+          <!-- NAVBAR ITEM -->
+          <div class="navbar-item">
+            <button class="button is-rounded lang has-ml-25" data-lang="ar">
+              <span class="icon">
+                <i class="fas fa-globe"></i>
+              </span>
+              <span data-localize="navbar.language">اللغة العربية</span>
+            </button>
+          </div>
+          <!-- / END NAVBAR ITEM -->
+
+        </div>
+        <!-- / END NAVBAR-END -->
+
+      </div>
+      <!-- / END NAVBAR MENU -->
+
+    </nav>
+    <!-- / END NAVBAR -->
+
+    <main>
+
+      <div class="columns is-gapless">
+
+        <div class="column is-8">
+
+          <!-- NAVBAR DOTS TO TOGGLE BETWEEN SECTIONS -->
+          <div class="navbar-dots is-hidden-mobile">
+            <ul>
+              <li>
+                <a href="#" data-section="home">
+                  <i class="fas fa-dot-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" data-section="skills">
+                  <i class="fas fa-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" data-section="portfolio">
+                  <i class="fas fa-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" data-section="offers">
+                  <i class="fas fa-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" data-section="reviews">
+                  <i class="fas fa-circle"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" data-section="contact">
+                  <i class="fas fa-circle"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- / END NAVBAR DOTS -->
+
+          <!-- SECTIONS CONTAINER -->
+          <div class="sections-container">
+
+            <!-- HOME SECTION -->
+            <section id="home" class="active">
+
+              <div class="section-container">
+                <div class="home-content">
+                  <h1 class="is-uppercase" data-localize="home.heading">
+                    Making Awesome<br />
+                    Websites
+                  </h1>
+                  <h3 data-localize="home.subtitle">
+                    "I'm John Doe | Full-Stack Developer"
+                  </h3>
+                  <p data-localize="home.short-descrip">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+                  </p>
+                  <div class="buttons">
+                    <a
+                      href="#"
+                      target="_blank"
+                      class="button is-rounded pph-btn"
+                    >
+                      <span class="icon">
+                        <i class="fas fa-suitcase"></i>
+                      </span>
+                      <span data-localize="home.hire-btn">Hire me</span>
+                    </a>
+                    <a class="button is-text contact-btn" href="#">
+                      <span class="icon">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      <span
+                        class="is-uppercase"
+                        data-localize="home.contact-btn"
+                        >Contact me</span
+                      >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- / END HOME SECTION -->
+
+            <!-- SKILLS -->
+            <section id="skills">
+              <div class="section-container">
+                <div class="skills-container">
+                  <p class="skills-p" data-localize="skills.section-descrip">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.
+                  </p>
+                  <div class="columns is-multiline">
+                    <div class="column is-2">
+                      <figure class="image skill-item">
+                        <img src="./img/html.png" alt="Skill text" />
+                      </figure>
+                    </div>
+                    <div class="column is-2">
+                      <figure class="image skill-item">
+                        <img src="./img/css.png" alt="Skill text" />
+                      </figure>
+                    </div>
+                    <div class="column is-2">
+                      <figure class="image skill-item">
+                        <img src="./img/sass.png" alt="Skill text" />
+                      </figure>
+                    </div>
+                    <div class="column is-2">
+                      <figure class="image skill-item">
+                        <img src="./img/js.png" alt="Skill text" />
+                      </figure>
+                    </div>
+                    <div class="column is-2">
+                      <figure class="image skill-item">
+                        <img src="./img/jquery.png" alt="Skill text" />
+                      </figure>
+                    </div>
+                    <div class="column is-2">
+                      <figure class="image skill-item">
+                        <img src="./img/react.png" alt="Skill text" />
+                      </figure>
+                    </div>
+                    <div class="column is-2">
+                      <figure class="image skill-item">
+                        <img src="./img/php.png" alt="Skill text" />
+                      </figure>
+                    </div>
+                    <div class="column is-2">
+                      <figure class="image skill-item">
+                        <img src="./img/mysql.png" alt="Skill text" />
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="cert">
+                    <h3 class="sub-section-title">
+                      <span class="icon"><i class="fas fa-award"></i></span>
+                      <span data-localize="skills.sub-section-title"
+                        >Certificate</span
+                      >
+                    </h3>
+                    <div class="columns is-multiline">
+                    
+                      <div class="column is-6">
+                        <figure class="image" style="border: 3px solid #ddd;">
+                          <img src="./img/cert.jpeg" alt="cert text" />
+                        </figure>
+                      </div>
+                       
+                    </div>
+                  </div>
+                </div>
+                <div class="section-title skills-title">
+                  <h2 class="is-uppercase title" data-localize="skills.heading">
+                    02. Skills
+                  </h2>
+                </div>
+                <figure class="skills-draw-image image">
+                  <img
+                    src="./img/portfolio-draw.png"
+                    alt="Skills"
+                  />
+                </figure>
+              </div>
+            </section>
+            <!-- / END SKILLS SECTION -->
+
+            <!-- PORTFOLIO -->
+            <section id="portfolio">
+              <div class="section-container">
+                <div class="portfolio-items">
+                  <div class="columns is-multiline">
+                  
+                    <div class="column is-6">
+                        <div class="card portfolio-item">
+                          <div class="card-header">
+                            <figure class="image">
+                              <img src="./img/portfolio-1.png" alt="portfolio" />
+                            </figure>
+                          </div>
+                          <div class="card-footer">
+                            <div class="is-flex">
+                              <h3>Portfolio title</h3>
+                              <div class="preview">
+                                <a
+                                  href="#"
+                                  target="_blank"
+                                >
+                                  <span data-localize="portfolio.preview"
+                                    >Live Preview</span
+                                  >
+                                  <i class="fas fa-chevron-right"></i>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="column is-6">
+                      <div class="card portfolio-item">
+                        <div class="card-header">
+                          <figure class="image">
+                            <img src="./img/portfolio-2.png" alt="portfolio" />
+                          </figure>
+                        </div>
+                        <div class="card-footer">
+                          <div class="is-flex">
+                            <h3>Portfolio title</h3>
+                            <div class="preview">
+                              <a
+                                href="#"
+                                target="_blank"
+                              >
+                                <span data-localize="portfolio.preview"
+                                  >Live Preview</span
+                                >
+                                <i class="fas fa-chevron-right"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="column is-6">
+                      <div class="card portfolio-item">
+                        <div class="card-header">
+                          <figure class="image">
+                            <img src="./img/portfolio-3.png" alt="portfolio" />
+                          </figure>
+                        </div>
+                        <div class="card-footer">
+                          <div class="is-flex">
+                            <h3>Portfolio title</h3>
+                            <div class="preview">
+                              <a
+                                href="#"
+                                target="_blank"
+                              >
+                                <span data-localize="portfolio.preview"
+                                  >Live Preview</span
+                                >
+                                <i class="fas fa-chevron-right"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="column is-6">
+                      <div class="card portfolio-item">
+                        <div class="card-header">
+                          <figure class="image">
+                            <img src="./img/portfolio-4.png" alt="portfolio" />
+                          </figure>
+                        </div>
+                        <div class="card-footer">
+                          <div class="is-flex">
+                            <h3>Portfolio title</h3>
+                            <div class="preview">
+                              <a
+                                href="#"
+                                target="_blank"
+                              >
+                                <span data-localize="portfolio.preview"
+                                  >Live Preview</span
+                                >
+                                <i class="fas fa-chevron-right"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+
+                <div class="section-title portfolio-title">
+                  <h2
+                    class="is-uppercase title"
+                    data-localize="portfolio.heading"
+                  >
+                    03. Portfolio
+                  </h2>
+                </div>
+                <figure class="portfolio-draw-image image">
+                  <img
+                    src="./img/portfolio-draw.png"
+                    alt="Portfolio"
+                  />
+                </figure>
+              </div>
+            </section>
+            <!-- / END PORTFOLIO -->
+
+            <!-- OFFER -->
+            <section id="offers">
+              <div class="section-container">
+                <div class="offers-items">
+                  <div class="columns">
+                    <div class="column is-6">
+                      <div class="card offer-item">
+                        <div class="card-header">
+                          <figure class="image">
+                            <img src="./img/offer.jpg" alt="portfolio" />
+                          </figure>
+                        </div>
+                        <div class="card-footer">
+                          <div class="offer-title">
+                            <div class="tags">
+                              <span
+                                class="tag is-success"
+                                data-localize="offers.offer-type-two"
+                                >Freebie</span
+                              >
+                            </div>
+                            <h3>
+                              <a
+                                href="#"
+                                target="_blank"
+                              >
+                                <span
+                                  data-localize="offers.offer-item-title-two"
+                                  >Show your works with this stannig template [Free Download]</span
+                                >
+                              </a>
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="section-title offers-title">
+                  <h2 class="is-uppercase title" data-localize="offers.heading">
+                    04. Offers
+                  </h2>
+                </div>
+                <figure class="portfolio-draw-image image">
+                  <img
+                    src="./img/portfolio-draw.png"
+                    alt="Offers"
+                  />
+                </figure>
+              </div>
+            </section>
+            <!-- / END OFFER -->
+
+            <!-- REVIEWS -->
+            <section id="reviews">
+              <div class="section-container">
+                <div class="reviews-slider">
+
+                  <!-- REVIEW ITEM ONE -->
+                  <div class="review-item">
+                    <div class="review-header is-flex">
+                      <div class="reviewer is-flex">
+                        <figure class="image avater is-96x96">
+                          <img src="./img/person.png" alt="reviewer" />
+                        </figure>
+                        <div class="reviewer-info">
+                          <h4
+                            class="client-name is-capitalized"
+                            data-localize="reviews.review-item-one.client-name"
+                          >
+                            Client Name
+                          </h4>
+                          <h6
+                            class="position"
+                            data-localize="reviews.review-item-one.position"
+                          >
+                            Client
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="rating">
+                        <h5 data-localize="reviews.rating">Rating</h5>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="review-content">
+                      <i class="fas fa-quote-left"></i>
+                      <p data-localize="reviews.review-item-one.client-review">
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                      </p>
+                    </div>
+                  </div>
+                  <!-- / END REVIEW ITEM OME -->
+
+                  <!-- REVIEW ITEM TWO -->
+                  <div class="review-item">
+                    <div class="review-header is-flex">
+                      <div class="reviewer is-flex">
+                        <figure class="image avater is-96x96">
+                          <img src="./img/person.png" alt="reviewer" />
+                        </figure>
+                        <div class="reviewer-info">
+                          <h4
+                            class="client-name is-capitalized"
+                            data-localize="reviews.review-item-two.client-name"
+                          >
+                            Client Name
+                          </h4>
+                          <h6
+                            class="position"
+                            data-localize="reviews.review-item-two.position"
+                          >
+                            Client
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="rating">
+                        <h5 data-localize="reviews.rating">Rating</h5>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="review-content">
+                      <i class="fas fa-quote-left"></i>
+                      <p data-localize="reviews.review-item-two.client-review">
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- / END REVIEW ITEM TWO -->
+                 
+                </div>
+
+                <div class="reviews-control">
+                  <h5>
+                    <button class="button is-text next-review-btn">
+                      <span class="is-uppercase" data-localize="reviews.next"
+                        >Next Review</span
+                      >
+                      <span class="icon">
+                        <i class="fas fa-chevron-right"></i>
+                      </span>
+                    </button>
+                  </h5>
+                </div>
+                <div class="section-title reviews-title">
+                  <h2
+                    class="is-uppercase title"
+                    data-localize="reviews.heading"
+                  >
+                    05. Reviews
+                  </h2>
+                </div>
+                <figure class="reviews-draw-image image">
+                  <img
+                    src="./img/reviews-draw.png"
+                    alt="reviews about Mohamed Ait Eljaouadi Services"
+                  />
+                </figure>
+              </div>
+            </section>
+            <!-- / END REVIEWS -->
+
+            <section id="contact">
+              <div class="section-container">
+                <div class="contact-form-container">
+                  <p class="form-msg" data-localize="contact.section-descrip">
+                    If you have any suggestion, project or even you want to say
+                    Hello.<br />
+                    please fill out the form below and I will reply you shortly.
+                  </p>
+                  <form
+                    class="contact-form"
+                    method="POST"
+                    daction="./php/sendEmail.php"
+                    data-parsley-validate
+                  >
+                    <input
+                      data-parsley-excluded
+                      type="hidden"
+                      class="input is-hidden"
+                      name="lang"
+                      value="en"
+                      id="lang"
+                    />
+                    <div class="field">
+                      <div class="control">
+                        <input
+                          data-parsley-excluded
+                          type="hidden"
+                          class="input is-hidden"
+                          name="empty"
+                        />
+                      </div>
+                    </div>
+                    <div class="field">
+                      <div class="field-body">
+                        <div class="field">
+                          <div class="control">
+                            <input
+                              type="text"
+                              name="name"
+                              id="name"
+                              class="input is-medium"
+                              data-parsley-minlength="2"
+                              data-parsley-required
+                              required
+                            />
+                            <label
+                              for="name"
+                              class="label is-uppercase"
+                              data-localize="contact.form.name"
+                              >Name</label
+                            >
+                          </div>
+                        </div>
+                        <div class="field">
+                          <div class="control">
+                            <input
+                              type="email"
+                              name="email"
+                              id="email"
+                              class="input is-medium"
+                              data-parsley-type="email"
+                              data-parsley-required
+                              required
+                            />
+                            <label
+                              for="email"
+                              class="label is-uppercase"
+                              data-localize="contact.form.email"
+                              >Email</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="field">
+                      <div class="field-body">
+                        <div class="field">
+                          <div class="control">
+                            <input
+                              type="text"
+                              name="phone"
+                              id="phone"
+                              class="input is-medium"
+                            />
+                            <label for="phone" class="label is-uppercase"
+                              ><span
+                                class="custom-lable"
+                                data-localize="contact.form.phone"
+                              >Phone</span>
+                              <span data-localize="contact.optional"
+                                >Optional</span
+                              ></label
+                            >
+                          </div>
+                        </div>
+                        <div class="field">
+                          <div class="control">
+                            <input
+                              type="text"
+                              name="subject"
+                              id="subject"
+                              class="input is-medium"
+                              data-parsley-required
+                              required
+                            />
+                            <label
+                              for="subject"
+                              class="label is-uppercase"
+                              data-localize="contact.form.subject"
+                              >Subject</label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="field">
+                      <div class="control">
+                        <textarea
+                          class="textarea is-medium"
+                          name="message"
+                          id="message"
+                          data-parsley-minlength="10"
+                          data-parsley-required
+                          required
+                        ></textarea>
+                        <label
+                          for="message"
+                          class="label is-uppercase"
+                          data-localize="contact.form.message"
+                          >Message</label
+                        >
+                      </div>
+                    </div>
+                    <div class="field">
+                      <button
+                        id="submit-btn"
+                        class="button is-rounded"
+                        type="submit"
+                        data-localize="contact.send-btn"
+                      >
+                        Send
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="section-title contact-title">
+                  <h2
+                    class="is-uppercase title"
+                    data-localize="contact.heading"
+                  >
+                    05. Contact
+                  </h2>
+                </div>
+                <figure class="contact-draw-image image">
+                  <img
+                    src="./img/contact-draw.png"
+                    alt="Contact"
+                  />
+                </figure>
+              </div>
+            </section>
+            <section class="error-404">
+              <div class="section-container">
+                <div class="page-content">
+                  <h2
+                    class="is-uppercase has-text-weight-bold has-text-centered"
+                    data-localize="error.section-title"
+                  ></h2>
+                  <svg
+                    id="Group_35"
+                    data-name="Group 35"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="1920"
+                    height="803.505"
+                    viewBox="0 0 1920 803.505"
+                  >
+                    <defs>
+                      <clipPath id="clip-path">
+                        <rect
+                          id="Rectangle_21"
+                          data-name="Rectangle 21"
+                          width="1920"
+                          height="803.505"
+                        />
+                      </clipPath>
+                    </defs>
+                    <g
+                      id="Group_21"
+                      data-name="Group 21"
+                      clip-path="url(#clip-path)"
+                    >
+                      <path
+                        id="Path_23"
+                        data-name="Path 23"
+                        d="M1118.25,526.369c-.975,1.433-3.755,1.249-5.151.989a11.325,11.325,0,0,1-4.6-2.5,145.884,145.884,0,0,1-12.335-10.292c-1.925-1.868-4.344-3.361-5.877-5.527-.339-.479-.235-2.336-.238-2.935,0-.955,1.084-.867,1.871-.823,4.418.247,8.313,2.8,11.906,5.128,1.375.892,2.554,2.017,3.934,2.928a51.475,51.475,0,0,1,6.115,4.48,19.59,19.59,0,0,1,3.806,4.777,5.162,5.162,0,0,1,.958,3.08C1118.51,526.349,1118.1,526.753,1118.25,526.369Z"
+                        fill="#fea75f"
+                      />
+                    </g>
+                    <g
+                      id="Group_22"
+                      data-name="Group 22"
+                      clip-path="url(#clip-path)"
+                    >
+                      <path
+                        id="Path_24"
+                        data-name="Path 24"
+                        d="M1091.3,510.807c-1.04-.771-1.255-2.152-1.528-3.322a90.5,90.5,0,0,1-1.513-11.91c-.312-3.269.129-6.619-.489-9.923-.578-3.086-2.023-6.071-2.316-9.234-.161-1.74-.164-4.5.778-6.348a1.2,1.2,0,0,1,1.953-.264,4.692,4.692,0,0,1,.672.9,17.444,17.444,0,0,1,.625,2.755c.473,1.587,1.227,3.232,1.55,4.824a9.736,9.736,0,0,0,.1-3.14.3.3,0,0,1,.583-.109,28.119,28.119,0,0,1,1.079,4.607c.194,1.563-.653,3.622-.506,5.2.259,2.792,1.391,4.826,2.093,7.549,1.157,4.491,3.258,9.316,2.771,14.05-.122,1.186.177,3.194-.833,4.077C1095.61,511.147,1092.36,511.591,1091.3,510.807Z"
+                        fill="#fea75f"
+                      />
+                    </g>
+                    <g
+                      id="Group_23"
+                      data-name="Group 23"
+                      clip-path="url(#clip-path)"
+                    >
+                      <path
+                        id="Path_25"
+                        data-name="Path 25"
+                        d="M1123.41,519.466c-.936-.812-2.557-.772-3.8-1.18a23.041,23.041,0,0,1-4.8-2.148c-.787-.485-1.525-1.015-2.339-1.413a17.905,17.905,0,0,1-2.487-1.161c-.674-.467-1.148-1.171-1.907-.633-.687.486-1.215,1.21-1.873,1.76a10.542,10.542,0,0,0-2.973,3.489c-.468,1.006-.558,2.056-.928,3.059.891.537,1.591,1.337,2.485,1.875a21.094,21.094,0,0,1,3.381,2.289,15.877,15.877,0,0,1,2.122,2.493c1.084,1.482.872,2.751.766,4.5-.172,2.854-.971,5.71-.975,8.566.483-.313.9-.835,1.4-1.174a17.181,17.181,0,0,0,2.455-1.454c1.41-1.343,1.512-3.724,1.924-5.5.708-3.055,1.732-6.02,3.923-8.343a15.813,15.813,0,0,0,2.4-3.208,17.116,17.116,0,0,1,1.191-1.946C1123.28,519.617,1123.15,519.884,1123.41,519.466Z"
+                        fill="#b8dff8"
+                      />
+                    </g>
+                    <g
+                      id="Group_24"
+                      data-name="Group 24"
+                      clip-path="url(#clip-path)"
+                    >
+                      <path
+                        id="Path_26"
+                        data-name="Path 26"
+                        d="M774.7,466.7c.047-.388.1-.773.164-1.153a44.958,44.958,0,0,1,2.02-9.2c.519-1.323,1.191-2.588,1.6-3.949a6.113,6.113,0,0,0-.033-4.174,9.105,9.105,0,0,0-1.714,4.242,72.485,72.485,0,0,1,.593-10,.884.884,0,0,0-.854.084,11.842,11.842,0,0,0-3.544,2.665A5.5,5.5,0,0,0,771.772,447a5.8,5.8,0,0,0-.237,2.279c.117,2.142,1.058,4.584.355,6.611a14.627,14.627,0,0,1-1.12,3.177c-1.256,2.445-2.494,4.9-3.736,7.351-1.4,2.758-4.655,9.276-3.192,12.541.812,1.812,1.995,2.691,3.961,2.415s2.993-2.015,3.876-3.808A42.964,42.964,0,0,0,774.7,466.7Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_27"
+                        data-name="Path 27"
+                        d="M765.791,512.971a10.963,10.963,0,0,0,1.018-2.889c2.406-9.7,4.267-19.655,3.673-29.765a8.375,8.375,0,0,0-.658-3.226,3.741,3.741,0,0,0-2.64-2.114,3.42,3.42,0,0,0-3.021,1.206,8.138,8.138,0,0,0-1.427,2.864,88.087,88.087,0,0,0-4.835,27.125c-.023,2.177.09,4.5,1.406,6.384a5.493,5.493,0,0,0,3.532,2.367A3.369,3.369,0,0,0,765.791,512.971Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_28"
+                        data-name="Path 28"
+                        d="M767.72,511.635a18.5,18.5,0,0,0,1.367-3.606q.44-1.463.881-2.925c.266-.883.532-1.767.72-2.67s.294-1.792.4-2.693l.558-4.626a25.646,25.646,0,0,0-16.522-.521,51.764,51.764,0,0,0,.059,7.368,20.623,20.623,0,0,0,1.562,7.008,12.673,12.673,0,0,0,4.984,5.461C764.03,515.722,766.662,513.562,767.72,511.635Z"
+                        fill="#8fbee7"
+                      />
+                    </g>
+                    <g
+                      id="Group_25"
+                      data-name="Group 25"
+                      clip-path="url(#clip-path)"
+                    >
+                      <path
+                        id="Path_29"
+                        data-name="Path 29"
+                        d="M395.072,646.409c34.012-3.658,157.79,15.463,193.544,14.657C674.96,659.12,748.795,636,748.795,636"
+                        fill="none"
+                        stroke="#b8d6f2"
+                        stroke-miterlimit="10"
+                        stroke-width="6.838"
+                      />
+                    </g>
+                    <g
+                      id="Group_28"
+                      data-name="Group 28"
+                      clip-path="url(#clip-path)"
+                    >
+                      <path
+                        id="Path_30"
+                        data-name="Path 30"
+                        d="M666.647,388.4c-75.282,0-126.694-47.74-199.222-53.248s-183.614,78.954-282.766,91.807-238.7-84.577-335.1-84.577"
+                        fill="none"
+                        stroke="#0065c2"
+                        stroke-miterlimit="10"
+                        stroke-width="13.677"
+                      />
+                      <path
+                        id="Path_31"
+                        data-name="Path 31"
+                        d="M817.54,391.274l5.18-95.594H779c-26.165,0-37.985,47.51-64.035,61.4-21.667,11.549-40.625,11.8-51.642,11.8s-11.82,20.223-11.82,20.223.8,20.223,11.82,20.223,29.974.245,51.642,11.8c26.05,13.886,37.871,61.4,64.035,61.4H822.72l-5.553-91.238Z"
+                        fill="#00aaf4"
+                      />
+                      <path
+                        id="Path_32"
+                        data-name="Path 32"
+                        d="M873.673,389.093c0-32.732-4.644-62.182-12.05-82.7V276.859H836.491c-20.535,0-37.182,50.249-37.182,112.234s16.647,112.234,37.182,112.234h25.132V471.791C869.028,451.276,873.673,421.825,873.673,389.093Z"
+                        fill="#0080db"
+                      />
+                      <ellipse
+                        id="Ellipse_7"
+                        data-name="Ellipse 7"
+                        cx="37.182"
+                        cy="112.234"
+                        rx="37.182"
+                        ry="112.234"
+                        transform="translate(822.719 276.859)"
+                        fill="#abdcf2"
+                      />
+                      <g id="Group_26" data-name="Group 26">
+                        <ellipse
+                          id="Ellipse_8"
+                          data-name="Ellipse 8"
+                          cx="4.82"
+                          cy="14.549"
+                          rx="4.82"
+                          ry="14.549"
+                          transform="translate(855.081 332.887)"
+                          fill="#0065c2"
+                        />
+                        <rect
+                          id="Rectangle_26"
+                          data-name="Rectangle 26"
+                          width="79.528"
+                          height="29.098"
+                          transform="translate(859.902 332.887)"
+                          fill="#0065c2"
+                        />
+                        <circle
+                          id="Ellipse_9"
+                          data-name="Ellipse 9"
+                          cx="14.549"
+                          cy="14.549"
+                          r="14.549"
+                          transform="translate(927.291 332.887)"
+                          fill="#0065c2"
+                        />
+                      </g>
+                      <g id="Group_27" data-name="Group 27">
+                        <ellipse
+                          id="Ellipse_10"
+                          data-name="Ellipse 10"
+                          cx="4.82"
+                          cy="14.549"
+                          rx="4.82"
+                          ry="14.549"
+                          transform="translate(855.081 416.202)"
+                          fill="#0065c2"
+                        />
+                        <rect
+                          id="Rectangle_27"
+                          data-name="Rectangle 27"
+                          width="79.528"
+                          height="29.098"
+                          transform="translate(859.902 416.202)"
+                          fill="#0065c2"
+                        />
+                        <circle
+                          id="Ellipse_11"
+                          data-name="Ellipse 11"
+                          cx="14.549"
+                          cy="14.549"
+                          r="14.549"
+                          transform="translate(927.291 416.202)"
+                          fill="#0065c2"
+                        />
+                      </g>
+                    </g>
+                    <g
+                      id="Group_29"
+                      data-name="Group 29"
+                      clip-path="url(#clip-path)"
+                    >
+                      <path
+                        id="Path_33"
+                        data-name="Path 33"
+                        d="M1178.36,646.409c34.012-3.658,125.544,14.6,161.307,14.657,78.758.118,199.642-35.94,199.642-35.94"
+                        fill="none"
+                        stroke="#b8d6f2"
+                        stroke-miterlimit="10"
+                        stroke-width="6.838"
+                      />
+                    </g>
+                    <g
+                      id="Group_32"
+                      data-name="Group 32"
+                      clip-path="url(#clip-path)"
+                    >
+                      <path
+                        id="Path_34"
+                        data-name="Path 34"
+                        d="M1248.82,388.4c75.282,0,147.491,47.854,220.019,42.346,38.149-2.9,148.651-38.037,148.651-38.037"
+                        fill="none"
+                        stroke="#0065c2"
+                        stroke-miterlimit="10"
+                        stroke-width="13.677"
+                      />
+                      <path
+                        id="Path_35"
+                        data-name="Path 35"
+                        d="M1252.15,368.87c-11.017,0-29.975-.245-51.642-11.8-26.05-13.886-37.87-61.4-64.036-61.4h-43.723l5.877,91-.683-.01-5.193,95.838h43.723c26.165,0,37.985-47.51,64.036-61.4,21.667-11.549,40.625-11.8,51.642-11.8s11.82-20.223,11.82-20.223S1263.17,368.87,1252.15,368.87Z"
+                        fill="#00aaf4"
+                      />
+                      <path
+                        id="Path_36"
+                        data-name="Path 36"
+                        d="M1041.8,389.093c0-32.732,4.645-62.182,12.049-82.7V276.859h25.132c20.535,0,37.182,50.249,37.182,112.234s-16.647,112.234-37.182,112.234h-25.132V471.791C1046.44,451.276,1041.8,421.825,1041.8,389.093Z"
+                        fill="#0080db"
+                      />
+                      <ellipse
+                        id="Ellipse_12"
+                        data-name="Ellipse 12"
+                        cx="37.182"
+                        cy="112.234"
+                        rx="37.182"
+                        ry="112.234"
+                        transform="translate(1018.388 276.859)"
+                        fill="#00aaf4"
+                      />
+                      <g id="Group_30" data-name="Group 30">
+                        <ellipse
+                          id="Ellipse_13"
+                          data-name="Ellipse 13"
+                          cx="4.82"
+                          cy="14.549"
+                          rx="4.82"
+                          ry="14.549"
+                          transform="translate(1050.75 332.887)"
+                          fill="#0065c2"
+                        />
+                      </g>
+                      <g id="Group_31" data-name="Group 31">
+                        <ellipse
+                          id="Ellipse_14"
+                          data-name="Ellipse 14"
+                          cx="4.82"
+                          cy="14.549"
+                          rx="4.82"
+                          ry="14.549"
+                          transform="translate(1050.75 416.202)"
+                          fill="#0065c2"
+                        />
+                      </g>
+                    </g>
+                    <g
+                      id="Group_33"
+                      data-name="Group 33"
+                      clip-path="url(#clip-path)"
+                    >
+                      <ellipse
+                        id="Ellipse_15"
+                        data-name="Ellipse 15"
+                        cx="64.084"
+                        cy="7.754"
+                        rx="64.084"
+                        ry="7.754"
+                        transform="translate(723.952 628.802)"
+                        fill="#b8d6f2"
+                      />
+                      <path
+                        id="Path_37"
+                        data-name="Path 37"
+                        d="M821.387,476.285q.444-.383.866-.778a44.968,44.968,0,0,0,6.512-6.8c.808-1.168,1.484-2.432,2.386-3.53a6.114,6.114,0,0,1,3.484-2.3,9.1,9.1,0,0,1-2.566,3.787,72.5,72.5,0,0,0,7.97-6.066c.278.115.366.458.406.756a11.836,11.836,0,0,1-.237,4.428,5.507,5.507,0,0,1-.837,1.962,5.8,5.8,0,0,1-1.76,1.467c-1.843,1.1-4.4,1.677-5.686,3.39a14.6,14.6,0,0,0-2.013,2.7c-1.33,2.406-2.677,4.8-4.021,7.2-1.511,2.7-5.107,9.036-8.633,9.64-1.957.336-3.346-.156-4.213-1.942s.005-3.608,1-5.341A42.943,42.943,0,0,1,821.387,476.285Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_38"
+                        data-name="Path 38"
+                        d="M818.859,490.994a3.637,3.637,0,0,1-.18.427,8.159,8.159,0,0,1-2.114,2.4,93.072,93.072,0,0,1-15.506,10.914,79.114,79.114,0,0,1-7.795,3.793c-2.008.842-4.2,1.613-6.442,1.105a5.48,5.48,0,0,1-3.525-2.379,3.367,3.367,0,0,1,.694-3.47,10.973,10.973,0,0,1,2.291-2.031c8.079-5.887,16.6-11.365,26.183-14.627a8.369,8.369,0,0,1,3.236-.607,3.735,3.735,0,0,1,2.953,1.647A3.332,3.332,0,0,1,818.859,490.994Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_39"
+                        data-name="Path 39"
+                        d="M784.525,491.224c-.5,1.13-1.268,2.32-2.483,2.564a10.816,10.816,0,0,1-2.556-.16c-.268-.035-.542-.079-.808-.125a8.566,8.566,0,0,1-2.488-.678,12.131,12.131,0,0,1-2.169-2.982c-.032-.079-.073-.168-.122-.263-.092-.19-.217-.409-.347-.643a5.705,5.705,0,0,1-.886-2.076c0-3.8,1.6-4.793,3.014-6.647a12.11,12.11,0,0,1,5.654-3.928,6.607,6.607,0,0,1,3.874-.382c1.111.323.968,1.13,1.024,2.128C786.49,482.561,786.384,487.025,784.525,491.224Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_40"
+                        data-name="Path 40"
+                        d="M781.158,499.806a11.715,11.715,0,0,1-11.082,3.359,18.227,18.227,0,0,0-3.372-.759,7.172,7.172,0,0,0,2.773-4.8,13.926,13.926,0,0,0-.2-6.313c-.111-.409-1.047-2.171-.615-2.494.366-.271,2.423.621,3.014.607a5.127,5.127,0,0,0,1.878-.467c.1-.043.2-.087.3-.133l0,0a19.958,19.958,0,0,1,2.041-.884.787.787,0,0,1,.453-.049.873.873,0,0,1,.325.211q1.358,1.227,2.722,2.45a17.417,17.417,0,0,0-.683,2.749c-.013.073-.024.146-.035.222a17.576,17.576,0,0,0-.2,2.673,7.3,7.3,0,0,0,.035.767,3.732,3.732,0,0,0,.206.959A3,3,0,0,0,781.158,499.806Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_41"
+                        data-name="Path 41"
+                        d="M778.678,493.5a17.576,17.576,0,0,0-.2,2.673,7.3,7.3,0,0,0,.035.767,4.332,4.332,0,0,1-.686-.61,15.959,15.959,0,0,1-1.152-1.131,13.02,13.02,0,0,1-2.372-4.324,8.056,8.056,0,0,1-.409-1.3,2.606,2.606,0,0,1-.046-.775V488.8l0,0a39.085,39.085,0,0,0,2.92,3.21,10.542,10.542,0,0,0,1.938,1.269c.068.038.136.07.2.106.184.092.38.163.569.241C779.217,493.593,778.943,493.55,778.678,493.5Z"
+                        fill="#fc7e16"
+                      />
+                      <path
+                        id="Path_42"
+                        data-name="Path 42"
+                        d="M775.719,492.4a11.909,11.909,0,0,0,2.011-2.028c1.36-1.853,1.744-4.248,2.883-6.244a9.318,9.318,0,0,1,3.025-3.2,24.293,24.293,0,0,0,3.129-1.949,6.722,6.722,0,0,0,2.044-5.061,13.937,13.937,0,0,0-1.346-5.423,4.584,4.584,0,0,1-2.885,1.2c-2.913.392-5.876.13-8.8.4s-5.973,1.2-7.881,3.43c-2.022,2.369-2.372,5.71-2.431,8.823a21.626,21.626,0,0,0,.306,4.7,12.751,12.751,0,0,0,2.6,5.492C770.514,495.182,773.385,494.343,775.719,492.4Z"
+                        fill="#0569bd"
+                      />
+                      <path
+                        id="Path_43"
+                        data-name="Path 43"
+                        d="M781.312,483.442a2.325,2.325,0,0,0-.943-.925,1.133,1.133,0,0,0-1.25.149,1.187,1.187,0,0,0-.295.961,3.527,3.527,0,0,0,.3.991,12.181,12.181,0,0,0,1.713,3.182c.135.162.328.332.529.271a.525.525,0,0,0,.265-.251c0-.277.389-.786.468-1.088a4.113,4.113,0,0,0,.117-1.284c-.028.008.041.082-.048.073C781.74,485.029,781.692,484.051,781.312,483.442Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_44"
+                        data-name="Path 44"
+                        d="M764.3,633.952a5.666,5.666,0,0,0,.037,2.487,3.866,3.866,0,0,0,4.073,2.276,11.048,11.048,0,0,0,4.617-1.9,40.8,40.8,0,0,0,6.707-4.767,7.68,7.68,0,0,0,1.9-2.43,3.381,3.381,0,0,0-.022-2.993c-.8-1.4-2.722-1.743-4.279-1.343a26.321,26.321,0,0,0-4.361,2.033c-1.984.922-3.152,1.619-5.185,2.4C765.358,630.656,764.629,631.506,764.3,633.952Z"
+                        fill="#529ada"
+                      />
+                      <path
+                        id="Path_45"
+                        data-name="Path 45"
+                        d="M761.618,556.408c-.423,5.194.5,10.39,1.259,15.546q1.194,8.127,1.841,16.322a27.782,27.782,0,0,1,.074,5.052c-.282,2.712-1.307,5.287-1.858,7.958-.933,4.533-.477,9.223-.018,13.828q.456,4.574.913,9.149a42.031,42.031,0,0,0,1.461,8.577,4.273,4.273,0,0,0,4.941-.986,118.424,118.424,0,0,1,3.852-23.708c.653-2.426,1.384-4.837,1.8-7.313a83.558,83.558,0,0,0,.74-8.474c.722-10.809,3.123-21.585,2.155-32.374a104.363,104.363,0,0,0-2.122-12.379,1.511,1.511,0,0,0-1.608-1.48l-6.65-1.011c-1.344-.2-3.116-.853-4.186.283-1.051,1.116-1.261,3.617-1.6,5.051A39.7,39.7,0,0,0,761.618,556.408Z"
+                        fill="#ffa800"
+                      />
+                      <path
+                        id="Path_46"
+                        data-name="Path 46"
+                        d="M786.343,638.356a6.1,6.1,0,0,0-.056,2.629c.482,1.746,2.472,2.719,4.282,2.646a12.227,12.227,0,0,0,5.08-1.79c2.5-1.325,5-2.652,7.377-4.186a8.883,8.883,0,0,0,3.478-3.417c.7-1.493.42-3.562-1.007-4.385-1.548-.893-3.454.018-5.123.657a32.181,32.181,0,0,1-5.591,1.4c-1.916.361-5.2.331-6.873,1.3C786.456,634.053,786.613,636.753,786.343,638.356Z"
+                        fill="#529ada"
+                      />
+                      <path
+                        id="Path_47"
+                        data-name="Path 47"
+                        d="M774.539,566.032c1.093,1.636,2.409,3.119,3.441,4.794a33.863,33.863,0,0,1,3.081,7.429c2.271,7,4.564,14.128,4.683,21.486.083,5.152-.906,10.266-1.038,15.417a92.731,92.731,0,0,0,.5,10.267q.45,5.258.9,10.514a14.432,14.432,0,0,0,8.288-1.727,114.286,114.286,0,0,1,1.933-25.922c.721-4.131,1.575-8.248,1.948-12.425.684-7.666-.266-15.373-1.214-23.01-1.176-9.477-2.376-19.052-5.684-28.009.224.606-15.91,2.165-17.3,2.3-5.146.515-3.741,6.721-2.972,10.449A23.813,23.813,0,0,0,774.539,566.032Z"
+                        fill="#ffa800"
+                      />
+                      <path
+                        id="Path_48"
+                        data-name="Path 48"
+                        d="M770.849,587.915a36.019,36.019,0,0,1,1.348,5.255,28.147,28.147,0,0,1-.076,6.248q-.308,3.542-.614,7.083c-.529,6.106-.983,12.229-1.973,18.277-.4,2.426.433,4.383.691,7.108,2.375-7.7,3.46-14.929,4.929-22.851,1.655-8.924,2.138-18.018,2.618-27.081q.207-3.926.415-7.851a7.065,7.065,0,0,0-.534-3.892,8.1,8.1,0,0,0-3.005-2.531c-2.9-1.816-4.765-4.431-7.3-6.54-.905,1.206-.071,4.352.047,5.8.192,2.363.415,4.724.7,7.076A86.268,86.268,0,0,0,770.849,587.915Z"
+                        fill="#f37000"
+                      />
+                      <path
+                        id="Path_49"
+                        data-name="Path 49"
+                        d="M792.276,528.95a43.067,43.067,0,0,0,.414-4.844,30.586,30.586,0,0,0-1.721-8.588q-1.711-5.658-3.424-11.315a20.388,20.388,0,0,0-1.54-4.035,12.159,12.159,0,0,1-5.529-.353l.262.181a13.052,13.052,0,0,1-8.959,3.014c0-.006,0-.011.005-.018-.353-.171-.949-.117-1.389-.313a9.451,9.451,0,0,1-1.161-.629c-.555-.349-1.2-1.12-.912-1.817a4.856,4.856,0,0,1-3.044,1.064,4.5,4.5,0,0,0-2.714.732,7.134,7.134,0,0,0-2.165,4.254c-.025.074-.052.147-.074.223a11.428,11.428,0,0,0-.145,4.259,59.748,59.748,0,0,0,1.364,8.863c.456,1.818,1.058,3.6,1.393,5.447,1.354,7.431-1.693,15.153-.268,22.57.9-.066,1.651.637,2.361,1.2a14.409,14.409,0,0,0,8.662,2.65c3.072.074,6.133-.384,9.205-.461,3.5-.087,7.408.19,10.046-2.11A87.194,87.194,0,0,1,792.276,528.95Z"
+                        fill="#8fbee7"
+                      />
+                      <path
+                        id="Path_50"
+                        data-name="Path 50"
+                        d="M785.557,502.735a2.307,2.307,0,0,0-2.905.907,5.889,5.889,0,0,0-.752,3.221c-.14,6.717,1.854,13.291,2.406,19.987a12.776,12.776,0,0,1-.188,4.236c-.343,1.331-1.05,2.539-1.489,3.841a16.154,16.154,0,0,0-.177,8.011,75.668,75.668,0,0,1,1.421,7.969,33.451,33.451,0,0,0,9.736-2.011.888.888,0,0,0,.506-.34.913.913,0,0,0,.021-.624,72.892,72.892,0,0,1-.774-19.241,34.4,34.4,0,0,0,.113-4.9,31.237,31.237,0,0,0-.774-4.443c-.8-3.55-1.694-7.255-4.094-9.989a31.585,31.585,0,0,1-2.688-2.953,3.7,3.7,0,0,1-.468-3.767q.453.684.905,1.367"
+                        fill="#3885ca"
+                      />
+                      <path
+                        id="Path_51"
+                        data-name="Path 51"
+                        d="M781.506,503.41a18.473,18.473,0,0,1,2.636-2.815l2.238-2.078c.676-.627,1.352-1.256,2.08-1.822s1.479-1.053,2.241-1.547l3.908-2.537a25.645,25.645,0,0,1,7.74,14.605,51.683,51.683,0,0,1-6.642,3.191,20.6,20.6,0,0,1-6.981,1.682,12.674,12.674,0,0,1-7.1-2.071C779.46,508.522,780.241,505.207,781.506,503.41Z"
+                        fill="#8fbee7"
+                      />
+                      <path
+                        id="Path_52"
+                        data-name="Path 52"
+                        d="M778.867,497.028c.157.163.065.1-.043,0A.31.31,0,0,0,778.867,497.028Z"
+                        fill="#3885ca"
+                      />
+                    </g>
+                    <g
+                      id="Group_34"
+                      data-name="Group 34"
+                      clip-path="url(#clip-path)"
+                    >
+                      <ellipse
+                        id="Ellipse_16"
+                        data-name="Ellipse 16"
+                        cx="64.084"
+                        cy="7.754"
+                        rx="64.084"
+                        ry="7.754"
+                        transform="translate(1065.046 638.655)"
+                        fill="#b8d6f2"
+                      />
+                      <path
+                        id="Path_53"
+                        data-name="Path 53"
+                        d="M1112.62,518.447a5.188,5.188,0,0,0,2.182.3,17.717,17.717,0,0,0,4.318-.462c2.362-.6,4.236-2.01,6.305-3.219.624-.362,1.207-.8,1.83-1.158a4.123,4.123,0,0,0,1.025-.547c-.524-.257-1.189-.074-1.759-.339a6.543,6.543,0,0,1-3.119-4.084c-.2-.637-.4-1.3-.565-1.959-.116-.452-.216-.9-.293-1.35-.039-.219-.07-.473-.09-.742a6.539,6.539,0,0,1,.193-2.392c.074-.1.149-.206.221-.308-.311.005-.616-.377-.919-.385-.434-.013-.95.58-1.263.845a7.043,7.043,0,0,1-2.767,1.746,11.2,11.2,0,0,1-4.595.578,7.3,7.3,0,0,1,.95,2.755c.021.108.039.21.056.313a13.04,13.04,0,0,1,.349,2.78.755.755,0,0,1,0,.082,13.739,13.739,0,0,1-.431,2.819A21.193,21.193,0,0,1,1112.62,518.447Z"
+                        fill="#e6900c"
+                      />
+                      <path
+                        id="Path_54"
+                        data-name="Path 54"
+                        d="M1109.71,493.423c-.182,1.107-.788,2.02-.856,3.165a14.342,14.342,0,0,0,.405,4.944,19.577,19.577,0,0,0,5.588,8.495c3.718,3.251,7.255-2.941,8.169-6.036.777-2.631,1.429-6.264-.06-8.751-1.193-1.992-2.956-4.08-5.288-4.641a7.721,7.721,0,0,0-5.34.652C1111.36,491.814,1110.52,493.522,1109.71,493.423Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_55"
+                        data-name="Path 55"
+                        d="M1121.69,497.873c-2.4-3.166-5.986-2.024-7.4-2.222a5.587,5.587,0,0,1-4.747-5.159,11.66,11.66,0,0,1,.093-4.42c1.147.286,1.975.888,3.286.634a23.978,23.978,0,0,1,3.891-.9c2.656-.1,5.732.5,7.532,2.586a14.85,14.85,0,0,1,3.423,10.093c-.027,1.09-2.936,10.216-4.88,8.89-.706-.481-.344-4.381-.428-5.286C1122.35,500.964,1122.07,498.379,1121.69,497.873Z"
+                        fill="#043059"
+                      />
+                      <path
+                        id="Path_56"
+                        data-name="Path 56"
+                        d="M1111.08,490.086c-2.394-.175-3.9,3.073-4.112,5.288a14.547,14.547,0,0,0,1.309,6.264,17.565,17.565,0,0,0,1.412,2.995c.193.311,1.184,2.109,1.645,2.06.859-.092-.421-2.52-.573-2.916a15.658,15.658,0,0,1-1.07-4.128,10.9,10.9,0,0,1,.708-6.129C1111.09,492.134,1111.58,491.527,1111.08,490.086Z"
+                        fill="#043059"
+                      />
+                      <path
+                        id="Path_57"
+                        data-name="Path 57"
+                        d="M1121.73,499.371c.276-.75.277-1.373.877-1.9.424-.376.97-.555,1.408-.043.9,1.047-.3,2.5-.788,3.419-.265.493-.69.962-.929,1.44-.167-.576-.155-1.2-.272-1.775C1121.97,500.221,1121.9,499.33,1121.73,499.371Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_58"
+                        data-name="Path 58"
+                        d="M1134.92,634.485c.619,1.215-.091,3.426.128,4.877.214,1.409,1.207,2.5,2.054,3.658,1.232,1.691,4.766,4.878,3.711,7.188-1.355,2.97-5.013,1.726-6.916.288-1.97-1.487-2.571-4.02-4.108-5.872-1.25-1.507-1.313-2.758-.93-4.62a36.616,36.616,0,0,0,.434-5.5,22.64,22.64,0,0,1,3.7.24C1133.55,634.766,1135.18,634.861,1134.92,634.485Z"
+                        fill="#4190d7"
+                      />
+                      <path
+                        id="Path_59"
+                        data-name="Path 59"
+                        d="M1118.48,634.228c.151,1.719-.387,3.548-.064,5.262.274,1.457,1.624,3.134,1.219,4.749s-2.468,1.662-3.822,2.082a6.615,6.615,0,0,0-3.269,2.535c-1.842,2.368-6.246,3.034-8.571.649-1.05-1.077-1.276-3.06-.153-4.014,1.189-1.011,2.938-.948,4.26-1.705a9.681,9.681,0,0,0,5.112-9.549,22.076,22.076,0,0,0,5.061.208C1118.33,634.641,1118.28,634.825,1118.48,634.228Z"
+                        fill="#4190d7"
+                      />
+                      <path
+                        id="Path_60"
+                        data-name="Path 60"
+                        d="M1131.61,552.493c1.5.662,2.309,4.515,2.92,6.032a32.082,32.082,0,0,1,1.946,7.445c.99,7.053-.011,14.06-.755,21.057-.3,2.775-.826,5.544-1.037,8.336a22.5,22.5,0,0,0,1.642,9.216,26.765,26.765,0,0,1,1.4,11.294c-.445,3.218-.138,3.515-.468,6.736-.306,2.99-.628,6.005-.774,8.98-.055,1.132-.184,2.225-.13,3.371.059,1.223-.272,2.35-.276,3.513a.376.376,0,0,1-.387.374c-2.521-.069-5.714.045-8.02-.7a.248.248,0,0,1-.168-.208c-.616-5.287-1.628-10.558-2.695-15.786-1.653-8.1-3.144-16.226-4.73-24.336-1.481-7.571-2.975-15.306-3.951-22.983a87.356,87.356,0,0,1-.7-10.94c0-1.77.013-3.534.115-5.3.044-.755-.175-2.312.464-2.767.735-.523,3.636-.219,4.628-.306a28.478,28.478,0,0,0,5.175-.773c2.119-.576,4.362-1.241,6.4-1.928C1131.66,552.85,1131.11,552.956,1131.61,552.493Z"
+                        fill="#ffa800"
+                      />
+                      <path
+                        id="Path_61"
+                        data-name="Path 61"
+                        d="M1121.36,555.827c.079,0,.159,0,.236,0C1121.51,555.686,1121.43,555.709,1121.36,555.827Z"
+                        fill="#4e4d4d"
+                      />
+                      <path
+                        id="Path_62"
+                        data-name="Path 62"
+                        d="M1103.11,578.8c0,7.914,1.543,15.708,3.2,23.412,1.7,7.876,3.08,15.7,4.207,23.669.426,3.016.606,6.143,1.2,9.085a8.766,8.766,0,0,0,.5,2.239c.549.829,1.715.513,2.826.513a27.085,27.085,0,0,0,3.047.1c1.276-.162,1.394-.8,1.581-2.095.714-4.921.783-8.718,1.017-12.594a59.462,59.462,0,0,0,.28-8.972c-.015-.2-.036-.4-.059-.6-.565-5.021-1.307-10-1.977-14.989a29.782,29.782,0,0,1-.1-6.123c.172-2.5.524-4.993.708-7.493.693-9.357-.326-18.742,1.507-27.971a5.065,5.065,0,0,1,.306-1.153c-4.962-.007-12.217,3.029-16.586-.467.1,3.992-1.081,7.724-1.276,11.636S1103.11,574.81,1103.11,578.8Z"
+                        fill="#ffa800"
+                      />
+                      <path
+                        id="Path_63"
+                        data-name="Path 63"
+                        d="M1103.89,555.693c.138-3.992.514-7.956.519-11.958,0-3.833.062-7.637.275-11.465a26.08,26.08,0,0,0,.069-5.044,36.2,36.2,0,0,1-.431-5.111c0-1.6-.121-4.911,1.54-5.679,1.263-.583,2.613-1.106,3.871-1.717,1.4-.677,3.211-1.961,4.76-2.125a2.969,2.969,0,0,0,.069.809l-.051.067c.131,1.853,1.887,2.58,3.5,2.819a6.486,6.486,0,0,0,5.776-1.815,5.136,5.136,0,0,0,1.491-2.472,6.935,6.935,0,0,0,2.954.65,7.489,7.489,0,0,0,1.671.57c.981.366,1.99.657,2.988,1a5.313,5.313,0,0,0,2.816,1.254c.673.371,1.327.777,1.948,1.2a8.2,8.2,0,0,1,.3,1.187c.491,2.559.818,4.95-.642,7.157-.639.966-3.959,6.348-4.079,6.8a13.925,13.925,0,0,0,.005,3.1v.424c0,1.253-.01,2.508,0,3.761a90.372,90.372,0,0,0,1.54,13.426c.259,1.625.542,3.27.891,4.883.062.28.126.557.19.834a10,10,0,0,1,.531,3.529,6.829,6.829,0,0,0-1.7.334c-2.185.493-4.261,1.512-6.508,1.82a84.961,84.961,0,0,1-11.056.68c-4.046.018-8.98,1.053-12.535-1.476-.791-.562-.537-1.4-.537-2.4C1104.07,559.056,1103.83,557.385,1103.89,555.693Z"
+                        fill="#b8dff8"
+                      />
+                      <path
+                        id="Path_64"
+                        data-name="Path 64"
+                        d="M1129.87,522.666c1.3,1.152,4,.175,5.315-.484a12.409,12.409,0,0,0,3.955-3.814,161.226,161.226,0,0,0,9.755-13.8c1.461-2.416,3.5-4.6,4.5-7.2.222-.575-.317-2.4-.455-3-.219-.954-1.273-.556-2.039-.287-4.3,1.51-7.545,5.171-10.544,8.524-1.148,1.284-2.046,2.745-3.194,4.048a56.829,56.829,0,0,0-4.982,6.222,21.644,21.644,0,0,0-2.634,5.858,5.507,5.507,0,0,0-.222,3.349C1129.6,522.722,1130.1,523.007,1129.87,522.666Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_65"
+                        data-name="Path 65"
+                        d="M1152.34,498.33c1.053-.753,1.293-2.129,1.585-3.3a90.5,90.5,0,0,0,1.722-11.882c.369-3.264-.013-6.621.663-9.913.632-3.075,2.128-6.035,2.477-9.192.192-1.737.243-4.494-.667-6.36a1.2,1.2,0,0,0-1.948-.3,4.71,4.71,0,0,0-.688.89,17.444,17.444,0,0,0-.673,2.743c-.5,1.579-1.283,3.211-1.634,4.8a9.787,9.787,0,0,1-.051-3.142.3.3,0,0,0-.581-.119,28.257,28.257,0,0,0-1.16,4.587c-.222,1.56.59,3.633.415,5.211-.307,2.787-1.475,4.8-2.225,7.511-1.236,4.47-3.421,9.257-3.016,14,.1,1.188-.233,3.19.762,4.091C1148.02,498.594,1151.27,499.1,1152.34,498.33Z"
+                        fill="#fea75f"
+                      />
+                      <path
+                        id="Path_66"
+                        data-name="Path 66"
+                        d="M1102.66,534.458c-.039-.044-.082-.087-.126-.128C1102.5,534.448,1102.54,534.494,1102.66,534.458Z"
+                        fill="#4e4d4d"
+                      />
+                      <path
+                        id="Path_67"
+                        data-name="Path 67"
+                        d="M1114.16,580.1a48.816,48.816,0,0,0,2.313,12,32.373,32.373,0,0,1,1.715,9.244c.064,1.356-.17,2.657-.175,4.01a26.616,26.616,0,0,0,.5,4.664,22.242,22.242,0,0,0,1.247,4.151,13.179,13.179,0,0,0,1.163,2.734c-.015-.9.013-1.817.051-2.736-.015-.2-.036-.4-.059-.6-.565-5.021-1.307-10-1.977-14.989a29.782,29.782,0,0,1-.1-6.123,42.487,42.487,0,0,1-.827-5.144c-.175-1.73-.536-3.455-.6-5.2-.067-1.651-.016-4.1-.662-5.6-.534-1.232-2.1-1.789-3.085-2.557A44.136,44.136,0,0,0,1114.16,580.1Z"
+                        fill="#f37000"
+                      />
+                      <path
+                        id="Path_68"
+                        data-name="Path 68"
+                        d="M1145.72,509.136a17.935,17.935,0,0,0-1.886-1.945c-.716-.666-1.427-1.339-2.139-2.011a6.519,6.519,0,0,0-1.318-.97c-.537-.3-1.473-.483-1.8-.961-.369.257-1.251,1.211-1.9,1.742a29.734,29.734,0,0,0-2.885,2.45,27.829,27.829,0,0,1-3.391,2.932,11.469,11.469,0,0,1-4.945,2.41c-.27.558-.524,1.123-.818,1.678a6.761,6.761,0,0,1-1.049,1.468c0,.043,0,.087,0,.13a18.172,18.172,0,0,1-.242,2.63,4.826,4.826,0,0,0-.159,2.67,14.522,14.522,0,0,0,3.772,4.94,38.6,38.6,0,0,1,4.459,5.686c.195.283.373.6.555.918a7.756,7.756,0,0,1,.6-2.214,16.094,16.094,0,0,1,4.239-5.4,1.984,1.984,0,0,1,.506-.269c.644-1.022,1.3-2.037,1.958-3.069,1.139-1.792,1.792-3.687,2.745-5.529.615-1.19,1.451-2.18,2.121-3.345a25.537,25.537,0,0,1,1.448-2.526C1146.07,509.906,1146.27,509.843,1145.72,509.136Z"
+                        fill="#b8dff8"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <div class="page-footer">
+                  <div class="error-title">
+                    <h2
+                      class="is-uppercase title"
+                      data-localize="error.heading"
+                    ></h2>
+                  </div>
+                  <div class="buttons">
+                    <a
+                      href="#"
+                      class="
+                        button
+                        home-button
+                        is-rounded is-uppercase
+                        has-text-weight-bold
+                      "
+                    >
+                      <span class="icon">
+                        <i class="fas fa-home"></i>
+                      </span>
+                      <span data-localize="error.home-btn"></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="column is-4">
+          <!-- SIDEBAR -->
+          <aside>
+            <div class="about-me">
+              <figure class="image avater">
+                <img
+                  src="./img/john-doe.png"
+                  alt="John Doe Full-Stack Developer"
+                />
+                <span class="avilable"></span>
+              </figure>
+              <!-- / END AVATAR -->
+              <h2
+                class="is-uppercase has-text-centered"
+                data-localize="sidebar.name"
+              >
+                John Doe
+              </h2>
+              <h4
+                class="is-uppercase has-text-centered"
+                data-localize="sidebar.position"
+              >
+                Full-stack Developer
+              </h4>
+              <p
+                class="short-bio has-text-centered"
+                data-localize="sidebar.bio"
+              >
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+              </p>
+              <figure class="image signature">
+                <img
+                  src="./img/signature.png"
+                  alt="John Doe Signature"
+                />
+              </figure>
+              <!-- / END SIGNATURE -->
+              <div class="button-container">
+                <a
+                  href="#"
+                  target="_blank"
+                  class="button is-rounded is-capitalized"
+                  data-localize="sidebar.download-resume-btn"
+                  >Download my resume</a
+                >
+              </div>
+              <!-- / END BUTTON-CONTAINER -->
+            </div>
+            <!-- / END ABOUT ME -->
+            <div class="social-media is-flex">
+              <h5 class="is-uppercase" data-localize="sidebar.contact-heading">
+                Keep in touch
+              </h5>
+              <ul class="social-media-links is-flex">
+                <li class="social-media-link">
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    <span class="icon is-medium">
+                      <i class="fab fa-linkedin-in"></i>
+                    </span>
+                  </a>
+                </li>
+                <!-- / END SOCIAL MEDIA LINK -->
+                <li class="social-media-link">
+                  <a href="#" target="_blank">
+                    <span class="icon is-medium">
+                      <i class="fab fa-github"></i>
+                    </span>
+                  </a>
+                </li>
+                <!-- / END SOCIAL MEDIA LINK -->
+                <li class="social-media-link">
+                  <a
+                    href="#"
+                    target="_blank"
+                  >
+                    <span class="icon is-medium">
+                      <i class="fab fa-facebook-f"></i>
+                    </span>
+                  </a>
+                </li>
+                <li class="social-media-link">
+                  <a href="#" target="_blank">
+                    <span class="icon is-medium">
+                      <i class="fab fa-whatsapp"></i>
+                    </span>
+                  </a>
+                </li>
+                <!-- / END SOCIAL MEDIA LINK -->
+                <li class="social-media-link">
+                  <a href="#" target="_blank">
+                    <span class="icon is-medium">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </a>
+                </li>
+                <!-- / END SOCIAL MEDIA LINK -->
+              </ul>
+              <!-- / END SOCIAL MEDIA LINKS -->
+            </div>
+            <!-- / END SOCIAL MEDIA -->
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1268.643"
+              height="1039.253"
+              viewBox="0 0 1268.643 1039.253"
+            >
+              <path
+                id="Path_6"
+                data-name="Path 6"
+                d="M286-412c746-180,388,564.671,388,753S523.12,682,337,682,218,358.329,218,170-460-232,286-412Z"
+                transform="matrix(-0.208, -0.978, 0.978, -0.208, 588.209, 885.055)"
+                fill="#e4e4e8"
+                opacity="0.35"
+              />
+            </svg>
+          </aside>
+          <!-- / END SIDEBAR -->
+        </div>
+      </div>
+    </main>
+    <!-- INCLUDE JS FILES -->
+    <script src="js/assets/jquery.min.js"></script>
+    <script src="js/assets/localize.min.js"></script>
+    <script src="js/assets/tiny-slider.js"></script>
+    <script src="js/assets/parsley.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

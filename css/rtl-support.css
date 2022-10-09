@@ -1,0 +1,344 @@
+html body,
+button,
+.button {
+  font-family: 'cairo', sans-serif !important;
+}
+
+.tns-outer {
+  direction: ltr;
+}
+
+#tns1 > .tns-item {
+  direction: rtl;
+}
+
+.navbar-dots {
+  left: auto !important;
+  right: 50px;
+}
+
+.navbar .navbar-menu .navbar-item {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.navbar-burger {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.navbar .navbar-menu .navbar-item .button.lang {
+  margin-right: 0;
+}
+
+section {
+  padding-left: 0px !important;
+  padding-right: 80px;
+}
+
+section .section-title {
+  right: auto !important;
+  left: 1.5rem;
+}
+
+.has-ml-25 {
+  margin-left: 0 !important;
+  margin-right: 25px;
+}
+
+.loader-page.loaded {
+  animation-name: loaded;
+  left: auto !important;
+  right: -100%;
+}
+
+@keyframes loaded {
+  from {
+    left: auto !important;
+    right: 0;
+  }
+
+  to {
+    left: auto !important;
+    right: -100%;
+  }
+}
+
+.label {
+  top: -13px;
+  right: 20px;
+  left: auto !important;
+}
+
+.button .icon:first-child:not(:last-child) {
+  margin-right: calc(-0.5em - 1px) !important;
+  margin-left: 0.25em !important;
+}
+
+aside {
+  border-left: none !important;
+  border-right: 6px solid #e8e8f1;
+  padding: 0px 1.5rem 0 25px !important;
+}
+
+aside .social-media h5 {
+  margin-left: 10px;
+  margin-right: 0 !important;
+}
+
+aside .social-media-link .icon {
+  margin-left: 5px;
+  margin-right: 0 !important;
+}
+
+aside svg {
+  left: auto !important;
+  right: 17%;
+}
+
+aside .about-me .button-container .button {
+  font-weight: 500;
+}
+
+.fa-chevron-right {
+  margin-right: 4px;
+}
+
+.fa-chevron-right:before {
+  content: '\f053' !important;
+}
+
+.buttons .button:not(:last-child):not(.is-fullwidth) {
+  margin-left: 0.5rem;
+  margin-right: 0 !important;
+}
+
+#home:before {
+  right: -20%;
+  left: auto !important;
+}
+
+#home .home-content:before {
+  right: 8%;
+  left: auto !important;
+}
+
+#home .home-content:after {
+  left: 25%;
+  right: auto !important;
+}
+
+#home .home-content h1 {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+#home .home-content p,
+aside .about-me .short-bio {
+  font-size: 1.1rem;
+}
+
+#home .home-content h1:before {
+  left: 50%;
+  right: auto !important;
+}
+
+#home .home-content h1:after {
+  left: 8%;
+  right: auto !important;
+}
+
+#home .home-content .buttons:before {
+  left: 25%;
+  right: auto !important;
+}
+
+#home .home-content .buttons:after {
+  left: 8%;
+  right: auto !important;
+}
+
+#home .home-content .button.pph-btn:before {
+  left: 8%;
+  right: auto !important;
+}
+
+#home .home-content .button.pph-btn img {
+  margin-left: auto !important;
+  margin-right: 5px;
+}
+
+#home .home-content .button.contact-btn:before {
+  left: -67px;
+  right: auto !important;
+}
+
+#offers:after {
+  right: -11%;
+  left: auto !important;
+}
+
+#offers .offers-title {
+  right: auto !important;
+  left: 1.5rem;
+}
+
+#offers .portfolio-draw-image,
+#portfolio .portfolio-draw-image {
+  right: -50px;
+  left: auto !important;
+}
+
+#reviews:after,
+#portfolio:after {
+  left: auto !important;
+  right: -11%;
+}
+
+#portfolio .portfolio-title {
+  left: 0;
+  right: auto !important;
+}
+
+#portfolio h2 {
+  text-align: left !important;
+}
+
+#reviews .review-item figure {
+  margin-left: 25px;
+  margin-right: 0 !important;
+}
+#reviews .review-item .review-content i {
+  right: 0;
+  left: auto !important;
+}
+
+#reviews .reviews-control h5 {
+  text-align: left;
+}
+
+#reviews .reviews-draw-image {
+  right: -5%;
+  left: auto !important;
+}
+
+.tns-carousel {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+@keyframes rondLeftRight {
+  0% {
+    right: auto !important;
+    left: 8%;
+  }
+
+  100% {
+    right: auto !important;
+    left: 6%;
+  }
+}
+
+#contact .contact-draw-image {
+  right: -5%;
+  left: auto !important;
+}
+
+.error-404:before {
+  right: -20%;
+  left: auto !important;
+}
+
+@media (max-width: 376px) {
+  #home:before {
+    right: -12% !important;
+    left: auto !important;
+  }
+}
+
+@media (max-width: 485px) {
+  #home:before {
+    right: -15%;
+    left: auto !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #home {
+    padding-right: 0;
+  }
+
+  #home .buttons::after {
+    left: 0%;
+    right: auto !important;
+  }
+
+  #skills,
+  #portfolio,
+  #offers,
+  #reviews,
+  #contact {
+    padding-right: 0;
+  }
+
+  aside {
+    border-right: none;
+  }
+}
+
+@media screen and (min-width: 769px), print {
+  .field-body > .field:not(:last-child) {
+    margin-right: 0 !important;
+    margin-left: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-end {
+    margin-left: 0 !important;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1215px) {
+  #skills .skills-p {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  #reviews .reviews-draw-image {
+    right: -26%;
+    left: auto !important;
+  }
+}
+
+/* UPDATES */
+@media ( max-width: 1270px) {
+  #home .home-content h1 {
+    font-size: 3rem;
+  }
+
+}
+
+@media ( max-width: 1050px ) {
+  #home .home-content h1 {
+    font-size: 2.35rem !important;
+  }
+}
+
+@media ( max-width: 865px ) {
+  #home .home-content h1 {
+    font-size: 2rem !important;
+  }
+}
+
+@media ( max-width: 450px ) {
+  #home .home-content h1 {
+    font-size: 1.57rem !important;
+  }
+  #home .home-content h3 {
+    font-size: 1.2rem !important;
+  }
+}

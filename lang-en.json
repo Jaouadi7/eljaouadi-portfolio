@@ -1,0 +1,82 @@
+{
+    "home": {
+        "heading": "Making Awesome<br />Websites",
+        "subtitle": "I'm John Doe | Full-Stack Developer",
+        "short-descrip": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.",
+        "hire-btn": "Hire me",
+        "contact-btn": "Contact me"
+    },
+    "skills": {
+        "heading": "02. Skills",
+        "section-descrip": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.",
+        "sub-section-title": "Certificate"
+    },
+    "portfolio": {
+        "heading": "03. Portfolio",
+        "preview": "Live Preview"
+    },
+    "offers": {
+        "heading": "04. Offers",
+        "offer-item-title-two": "Show your works with this stannig template [Free Download",
+        "offer-type-one": "Special offer",
+        "offer-type-two": "Freebie"
+    },
+    "reviews": {
+        "heading": "05. Reviews",
+        "rating": "Rating",
+        "next": "Next Review",
+
+        "review-item-one": {
+            "client-name": "Client Name",
+            "position": "Client",
+            "client-review": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+        },
+
+        "review-item-two": {
+            "client-name": "Client Name",
+            "position": "Client",
+            "client-review": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. "
+        }
+        
+
+    },
+    
+    "contact": {
+        "heading": "05. Contact",
+        "section-descrip": " If you have any suggestion, project or even you want to say Hello.<br> please fill out the form below and I will reply you shortly.",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "phone": "Phone",
+            "subject": "Subject",
+            "message": "Message"
+        },
+        "optional": "Optional",
+        "send-btn": "Send"
+        
+    },
+    "error": {
+        "heading": "Error 404",
+        "home-btn": "Home",
+        "section-title": "Ops! This page not found"
+    },
+    "sidebar": {
+        "name": "John Doe",
+        "position": "Full-stack developer",
+        "bio": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "contact-heading": "Keep in touch",
+        "download-resume-btn": "Download my resume"
+    },
+
+    "navbar": {
+        "home": "Home",
+        "skills": "Skills",
+        "portfolio": "Portfolio",
+        "offers": "Offers",
+        "reviews": "Reviews",
+        "contact": "Contact",
+        "language": "اللغة العربية"
+
+    }
+    
+}
