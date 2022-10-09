@@ -5,7 +5,7 @@ is a fully responsive HTML Portfolio website built by [Mohamed A. Eljaouadi](htt
 
 ## ✌️ preview
 
-Check out the live demo by clicking [here](http://eljaouadi.com). 
+Check out the live demo by clicking [here](https://jaouadi7.github.io/eljaouadi-portfolio). 
 
 ## 🍔 Issues
 
