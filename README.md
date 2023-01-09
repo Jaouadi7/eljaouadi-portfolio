@@ -1,5 +1,5 @@
 # Eljaouadi HTML Profolio Website
-is a fully responsive HTML Portfolio website built by [Mohamed A. Eljaouadi](http://eljaouadi.com).
+is a fully responsive HTML Portfolio website built by [Mohamed A. Eljaouadi](https://eljaouadi.online).
 
 ![Screenshot](https://raw.githubusercontent.com/Jaouadi7/eljaouadi-portfolio/ad20a8fe6024f723ee6dd7ad4f8fb3e22aa57ca1/offer.jpg)
 
@@ -17,7 +17,7 @@ If you've found an issue or a bug, you can report it in the issues section of th
 * steps to reproduce
 * Already tried fixes (if relevant)
 
-You can also report an issue by  [contact me](mailto:contact@eljaouadi.com).
+You can also report an issue by  [contact me](mailto:contact@eljaouadi.online).
 
 ## 🗨️ Discussions (feature requests)
 
@@ -26,7 +26,7 @@ If you want to contribute to the project development by requesting new features,
 
 ## 🚀 About Me
 
-I am a Moroccan full-time freelance front-end developer. who specializes in creating dynamic and beautiful web pages. please check  👉  [My Portfolio Website](http://eljaouadi.com).
+I am a Moroccan full-time freelance front-end developer. who specializes in creating dynamic and beautiful web pages. please check  👉  [My Portfolio Website](https://eljaouadi.online).
 
 ## Contact Me
 
